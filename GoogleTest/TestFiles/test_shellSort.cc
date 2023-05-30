@@ -4,6 +4,7 @@
 #include "AcFly.h"
 
 #include "test.h"
+
 TEST(TEST_ShellSort, normal) {
     quickTest(shellSort);
 }

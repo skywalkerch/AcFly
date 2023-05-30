@@ -1,5 +1,5 @@
 /build
 /.idea
 /.vscode
-/GoogleTest
+/GoogleTest/bin
 /src/bin

@@ -3,6 +3,7 @@
 //
 #include "AcFly.h"
 #include "test.h"
+
 TEST(TEST_DirectlyInsertSort, normal) {
     quickTest(directlyInsertSort);
 

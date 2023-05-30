@@ -3,6 +3,6 @@
 //
 #include "test.h"
 
-TEST(TEST_HeapSort,normal){
+TEST(TEST_HeapSort, normal) {
     quickTest(heapSort);
 }

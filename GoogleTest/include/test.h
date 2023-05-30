@@ -5,10 +5,9 @@
 #ifndef ACFLY_TEST_H
 #define ACFLY_TEST_H
 #include <gtest/gtest.h>
-#include "AcFly.h"
 #include <random>
 //生成一个被打乱顺序的数组，用来测试
-int* randomArrayGenerator(int arr[],int len){
+int* randomArrayGenerator(const int arr[],int len){
     //复制传入的数组
     int *b=new int[len];
     for(int i=0;i<len;i++){
@@ -52,8 +51,8 @@ int *randomPositiveArray(int len) {
 
 
 void quickTest(void (*Sort)(int arr[], int len)) {
-#define num 20 //测20组用例
-#define LEN 100 //每组用例长100
+#define num 200 //测20组用例
+#define LEN 1000 //每组用例长100
     int *a = randomPositiveArray(LEN);
     int *b;
     for (int i = 0; i < num; i++) {

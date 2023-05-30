@@ -3,6 +3,7 @@
 //
 #include "AcFly.h"
 #include "test.h"
-TEST(TEST_BinaryInsertSort,normal){
+
+TEST(TEST_BinaryInsertSort, normal) {
     quickTest(binaryInsertionSort);
 }
