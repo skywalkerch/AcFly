@@ -1,0 +1,7 @@
+link_directories(${PROJECT_SOURCE_DIR}/lib)
+set(CMAKE_BUILD_TYPE debug)
+aux_source_directory(${PROJECT_SOURCE_DIR}/lib/lib_src/include DIR_LIB_INCLUDE)
+include_directories(${PROJECT_SOURCE_DIR}/lib/lib_src/include/)
+set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/src/bin)
+add_executable(main main.cpp ${DIR_LIB_INCLUDE})
+target_link_libraries(main AcFly)
