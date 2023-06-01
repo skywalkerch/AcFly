@@ -8,8 +8,7 @@ set(gtest_force_shared_crt ON CACHE BOOL "" FORCE)
 FetchContent_MakeAvailable(googletest)
 
 set(SRC TestFiles)
-set(EXE ${SRC}/test_mergeSort.cc)
-#aux_source_directory(${SRC}/ EXE)
+set(EXE ${SRC}/test_bubbleSort.cc)
 set(EXECUTABLE_OUTPUT_PATH ${PROJECT_SOURCE_DIR}/GoogleTest/bin)
 
 enable_testing()

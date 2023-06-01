@@ -17,7 +17,8 @@ void binaryInsertionSort(int arr[],int len);
 //##希尔排序
 void shellSort(int arr[],int len);
 
-
+//##冒泡排序
+void bubbleSort(int arr[],int len);
 
 
 //##堆排序
