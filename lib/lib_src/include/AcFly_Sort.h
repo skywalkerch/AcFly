@@ -5,7 +5,7 @@
 #ifndef ACFLY_ACFLY_SORT_H
 #define ACFLY_ACFLY_SORT_H
 //#排序算法
-//##快速排序 参数1 待排序数组 参数2 待排序数组长度
+//##选择排序 参数1 待排序数组 参数2 待排序数组长度
 void selectionSort(int arr[], int len);
 
 //##直接插入排序
@@ -20,6 +20,8 @@ void shellSort(int arr[],int len);
 //##冒泡排序
 void bubbleSort(int arr[],int len);
 
+//##快速排序
+void quickSort(int arr[],int len);
 
 //##堆排序
 void heapSort(int arr[], int len);
