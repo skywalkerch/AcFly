@@ -7,7 +7,7 @@
 
 //实现基数排序
 void radixSort(int arr[],int len,int maxnr){
-    std::stack<int> *s=new std::stack<int>[10];
+    auto *s=new std::stack<int>[10];
     #define max (maxnr-1)
     for(int k=0;k<max;k++) {
         for (int i = 0; i < len; i++) {
