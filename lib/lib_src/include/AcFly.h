@@ -6,6 +6,6 @@
 #define ACFLY_ACFLY_H
 
 #include "AcFly_Sort.h"
-
+#include "AcFly_Graph.h"
 
 #endif //ACFLY_ACFLY_H
