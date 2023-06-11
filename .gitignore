@@ -3,3 +3,5 @@
 /.vscode
 /GoogleTest/bin
 /src/bin
+/.vs
+/lib/RelWithDebinfo

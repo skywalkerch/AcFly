@@ -1,7 +1,7 @@
 //
 // Created by skywalkerch on 6/2/2023.
 //
-#include "AcFly.h"
+
 #ifndef ACFLY_ACFLY_GRAPH_H
 #define ACFLY_ACFLY_GRAPH_H
 #include <vector>
@@ -43,30 +43,21 @@ void dfs_stack_ud(const MGraph G,int number,std::vector<int> &result){
     for(int i=0;i<G.vexnum;i++){
         visited[i]=false;
     }
-    std::stack<int> s;
-    s.push(number);
+    std::stack<int> *s=new std::stack<int>;
+    s->push(number);
     visited[number]=true;
-    while(!s.empty()){
-        int k=s.top();
+    while(!s->empty()){
+        int k=s->top();
         result.push_back(k);
 
-        s.pop();
+        s->pop();
         for(int w= firstneighbor(G,k);w>=0;w= nextneighbor(G,k,w)){
             if(!visited[w]){
-                s.push(w);
+                s->push(w);
                 visited[w]=true;
             }
         }
     }
 }
-
-
-
-
-
-
-
-
-
 
 #endif //ACFLY_ACFLY_GRAPH_H
