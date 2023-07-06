@@ -33,6 +33,7 @@ int randomPlus(){
     std::uniform_int_distribution<> dist(0,100);
     return dist(gen);
 }
+
 int randomStart(){
     std::random_device rd;   // non-deterministic generator
     std::mt19937 gen(rd());  // to seed mersenne twister.
