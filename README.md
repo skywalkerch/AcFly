@@ -3,7 +3,7 @@
 
 future:
 
-- 实现带权图的dijkstra,floyd算法
+- [✓]实现带权图的dijkstra,floyd算法
 - 实现带权图的最小生成树算法
 - 树的三种遍历算法的栈实现
 
@@ -37,6 +37,9 @@ future:
 - `dfs_stack_ud(const MGraph G, int vexid, std::vector<int> &result)` 深度优先搜索-基于栈实现
 - `dfs_recursion(const MGraph G, int vexid, std::vector<int> &result)`  深度优先搜索-基于递归实现
 - `bfs(const MGraph G, int number, std::vector<int> &result)` 广度优先搜索-基于队实现
+- [基于BFS的最短路径算法](https://skywalkerch.vercel.app/blog/2023/07/11/%E6%9C%80%E7%9F%AD%E8%B7%AF%E5%BE%84%E7%AE%97%E6%B3%95#bfs%E6%9C%80%E7%9F%AD%E8%B7%AF%E5%BE%84%E7%AE%97%E6%B3%95)
+- [Dijsktra算法](https://skywalkerch.vercel.app/blog/2023/07/11/%E6%9C%80%E7%9F%AD%E8%B7%AF%E5%BE%84%E7%AE%97%E6%B3%95#dijskstra-%E7%AE%97%E6%B3%95)
+- [Floyd算法](https://skywalkerch.vercel.app/blog/2023/07/11/%E6%9C%80%E7%9F%AD%E8%B7%AF%E5%BE%84%E7%AE%97%E6%B3%95#floyd-%E7%AE%97%E6%B3%95)
 
 ## 树相关算法
 
